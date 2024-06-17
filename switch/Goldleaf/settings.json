@@ -1,0 +1,33 @@
+{
+    "general": {
+        "customLanguage": "es",
+        "externalRomFs": "/switch/Goldleaf/theme/rom",
+        "use12hTime": true
+    },
+    "ui": {
+        "background": "#aabbccdd",
+        "base": "#aabbccdd",
+        "baseFocus": "#aabbccdd",
+        "text": "#aabbccdd",
+        "menuItemSize": 80
+    },
+    "installs": {
+        "ignoreRequiredFwVersion": false,
+        "copyBufferMaxSize": 10485760
+    },
+    "export": {
+        "decryptBufferMaxSize": 10485760
+    },
+    "web": {
+        "bookmarks": [
+            {
+                "name": "Google",
+                "url": "https://www.google.com"
+            },
+            {
+                "name": "GitHub",
+                "url": "https://www.github.com"
+            }
+        ]
+    }
+}
