@@ -1,15 +1,8 @@
 {
     "general": {
-        "customLanguage": "es",
-        "externalRomFs": "/switch/Goldleaf/theme/rom",
+        "customLanguage": "de",
+        "externalRomFs": "/Goldleaf/theme/rom",
         "use12hTime": true
-    },
-    "ui": {
-        "background": "#aabbccdd",
-        "base": "#aabbccdd",
-        "baseFocus": "#aabbccdd",
-        "text": "#aabbccdd",
-        "menuItemSize": 80
     },
     "installs": {
         "ignoreRequiredFwVersion": false,
