@@ -1,7 +1,6 @@
 {
     "ams": {
-         "Blue_Edition_2__RCM_V1": "https://github.com/glitched-nx/Blue_Edition_2__RCM_V1/releases/latest/download/Blue_Edition_2__RCM_V1.zip",
-         "Blue_Edition_2__MODCHIP": "https://github.com/glitched-nx/Blue_Edition_2__MODCHIP/releases/latest/download/Blue_Edition_2__MODCHIP.zip",
+         "Blue_Edition_2__CFW_PACK": "https://github.com/glitched-nx/Blue_Edition_2__RCM_V1/releases/latest/download/Blue_Edition_2__RCM_V1.zip",
          "BlueHAND_SDCard_Unpack": "https://github.com/glitched-nx/BlueHAND/releases/latest/download/BlueHAND_SDCard_Unpack.zip"
         },
     "misc": {

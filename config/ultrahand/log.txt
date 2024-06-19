@@ -1,3 +1,0 @@
-[2024-06-18 12:50:36] Failed to open the file: sdmc:/config/ultrahand/theme.ini
-[2024-06-18 12:50:36] Failed to open the file: sdmc:/config/ultrahand/config.ini
-[2024-06-18 16:48:56] Failed to open the file: sdmc:/config/ultrahand/config.ini
