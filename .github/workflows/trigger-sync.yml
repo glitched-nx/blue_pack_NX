@@ -13,6 +13,6 @@ jobs:
       - name: Trigger Sync Action
         uses: peter-evans/repository-dispatch@v1
         with:
-          token: ${{ secrets.SYNC_TOKEN }}
+          token: ${{ secrets.CSYNC_TOKEN }}
           repository: glitched-nx/Blue_Edition_2__RCM_V1
           event-type: sync-main
