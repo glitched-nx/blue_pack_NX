@@ -1,4 +1,4 @@
-name: Sync Private to Public Repo
+name: Mirror Private to Public Repo
 
 on:
   push:
@@ -6,21 +6,17 @@ on:
       - main
 
 jobs:
-  sync-repos:
+  mirror:
     runs-on: ubuntu-latest
-    steps:
-    - name: Checkout private repo
-      uses: actions/checkout@v2
-      with:
-        repository: glitched-nx/Blue_Edition_2_DEV
-        token: ${{ secrets.SYNC_TOKEN }}
-        fetch-depth: 0
-
-    - name: Add public repo as remote
-      run: |
-        git config --global user.name 'github-actions'
-        git config --global user.email 'xteknox2009@gmail.com'
-        git remote add public_blue_2_repo https://glitched-nx:${{ secrets.SYNC_TOKEN }}@github.com/glitched-nx/Blue_Edition_2__RCM_V1.git
-        git push public_blue_2_repo main --force
-
     
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+        
+    - name: Push to public repo
+      env:
+        PUBLIC_REPO: https://${{ secrets.SYNC_TOKEN }}@github.com/glitched-nx/Blue_Edition_2__RCM_V1.git
+      run: |
+        git remote set-url --push origin $PUBLIC_REPO
+        git push origin main      
