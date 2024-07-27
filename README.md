@@ -1,6 +1,6 @@
-<div style="text-align: center;">
-  <img src="img/logo_banner.png?raw=true" alt="Banner">
-</div>
+<p align="center">
+  <img src="logo-banner.png?raw=true" alt="Banner">
+</p>
 
 <div align="center"> 
   <h1>blue pack NX</h1>
