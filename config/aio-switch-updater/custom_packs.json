@@ -1,7 +1,6 @@
 {
     "ams": {
-         "Blue_Edition_2__CFW_PACK": "https://github.com/glitched-nx/Blue_Edition_2__RCM_V1/releases/latest/download/Blue_Edition_2__RCM_V1.zip",
-         "BlueHAND_SDCard_Unpack": "https://github.com/glitched-nx/BlueHAND/releases/latest/download/BlueHAND_SDCard_Unpack.zip"
+         "blue_pack_NX": "https://github.com/glitched-nx/blue_pack_nx/releases/latest/download/blue_pack_nx.zip"
         },
     "misc": {
         "TINFOIL_DL": "https://codeberg.org/glitched_nx/NXShopLDR/raw/branch/main/tinfoil.zip",
