@@ -1,5 +1,6 @@
-<div align="center">
-![Banner](img/logo_banner.png?raw=true)
+<div style="text-align: center;">
+  <img src="img/logo_banner.png?raw=true" alt="Banner">
+</div>
 
 <div align="center"> 
   <h1>blue pack NX</h1>
