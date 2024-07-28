@@ -1,8 +1,7 @@
 {
     "general": {
         "customLanguage": "de",
-        "externalRomFs": "/Goldleaf/theme/rom",
-        "use12hTime": true
+        "use12hTime": false
     },
     "installs": {
         "ignoreRequiredFwVersion": false,
