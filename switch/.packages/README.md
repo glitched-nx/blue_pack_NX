@@ -1,3 +1,39 @@
+# Ultrahand Overlay - Beispiele
+
+Dieses Repository enthält eine Sammlung nützlicher Beispiele, die die Fähigkeiten und Verwendung des Ultrahand Overlays demonstrieren.
+
+Ultrahand Overlay ist ein leistungsstarkes Werkzeug, das es ermöglicht, die Overlays deines Geräts anzupassen und zu verbessern, um die Leistung zu optimieren, die Funktionalität zu verbessern und dein Erlebnis zu personalisieren.
+
+## Beispiele
+
+- [Cool Curves](Cool%20Curves/README.md): Modifikation und Optimierung der Lüfterkurveneinstellungen über eine einfache Schnittstelle.
+- [Host Guard](Host%20Guard/README.md): Verbesserung der Sicherheit durch Overlay-Anpassungen, um dein Gerät vor unerwünschten Servern zu schützen.
+- [Mod Master](Mod%20Master/README.md): Verwaltung und Optimierung von Spielmodifikationen.
+- [OC Toolkit](OC%20Toolkit/README.md): Leistungssteigerung durch benutzerdefinierte Übertaktungen, Timings und Unterspannungen.
+- [Broomstick](Broomstick/README.md): Auslagern und Wiederherstellen spezifischer Overlays zur Verbesserung der Systemressourcen und Leistung.
+- [l4t_reboot](l4t_reboot/README.md): Systemneustarts unter Linux einfach in Ubuntu durchführen.
+- [config.ini](https://github.com/ppkantorski/Ultrahand-Overlay/blob/main/examples/config.ini): Grundlegende Systembefehle für dein Gerät.
+
+## Erste Schritte
+
+Um diese Beispiele zu verwenden, folge diesen Schritten:
+
+1. Klone oder lade dieses Repository auf deinen lokalen Rechner.
+2. Kopiere den Inhalt des gewünschten Beispielordners nach `/switch/.packages/` auf deinem Gerät.
+3. Folge den spezifischen Anweisungen in der README-Datei jedes Beispiels, um die Overlays zu konfigurieren und anzuwenden.
+
+Hinweis: Stelle sicher, dass du die potenziellen Auswirkungen auf dein Gerät verstehst und befolge die Anweisungen sorgfältig.
+
+## Mitwirken
+
+Beiträge aus der Community sind willkommen! Wenn du Verbesserungen, Fehlerbehebungen oder neue Beispiele teilen möchtest, reiche gerne einen Pull-Request ein.
+
+Urheberrecht (c) 2024 ppkantorski
+
+Alle Rechte vorbehalten.
+
+---
+
 # Ultrahand Overlay - Examples
 
 This repository contains a collection of useful examples that demonstrate the capabilities and usage of Ultrahand Overlay.
@@ -33,7 +69,6 @@ Note: Before applying any overlays or modifications, make sure you understand th
 ## Contributing
 
 Contributions from the community are welcome! If you have any improvements, bug fixes, or new examples to share, feel free to submit a pull request.
-
 
 Copyright (c) 2024 ppkantorski
 
