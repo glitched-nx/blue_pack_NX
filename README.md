@@ -2,8 +2,7 @@
   <img src="logo-banner.png?raw=true" alt="Banner">
 </p>
 
-<div align="center"> 
-  <h1>blue pack NX</h1>
+<div align="center">
   <h2>AIO CFW Pack für alle Switch-Konsolen</h2>
 </div>
 
@@ -18,3 +17,16 @@
   <img alt="GitHub Tag" src="https://img.shields.io/github/v/tag/glitched-nx/hekate_blue?style=plastic&logoSize=auto&label=hekate blue&labelColor=%23abc4ff&color=%230d3ce6">
   <img alt="GitHub Tag" src="https://img.shields.io/github/v/tag/THZoria/NX_Firmware?style=plastic&logoSize=auto&label=NX Firmware&labelColor=%23abc4ff&color=%230d3ce6">
 </p>
+
+[***atmosphère blue***](https://github.com/glitched-nx/atmosphere_blue/releases/latest)
+- ***Sigpatches im Code eingebettet***:
+- ***Entfernte ACID-Signaturprüfung***: Homebrews können ohne Patches verwendet werden.
+- ***System-Protokollierung entfernt*** Um ein Überladen der Speicherkarte und eine übermäßige Nutzung zu vermeiden.
+- ***Daybreak Quick*** Eine modifizierte deutschsprachige Version von Daybreak:
+  * Up- und Downgrading der Firmware auf drei Schritten abgeschlossen.
+  * Installation beider Treiber (exFAT und FAT32) erfolgt automatisch.
+  * Die "Factory Reset"-Option wurde entfernt.
+
+[***hekate blue***](https://github.com/glitched-nx/hekate_blue/releases/latest)
+
+[***Ultrahand Overlay***](https://github.com/ppkantorski/Ultrahand-Overlay)
