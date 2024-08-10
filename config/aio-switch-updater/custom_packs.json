@@ -1,9 +1,10 @@
 {
     "ams": {
-         "blue_pack_NX": "https://github.com/glitched-nx/blue_pack_nx/releases/latest/download/blue_pack_nx.zip"
+         "blue pack NX - AIO CFW Pack": "https://github.com/glitched-nx/blue_pack_nx/releases/latest/download/blue_pack_nx.zip"
         },
     "misc": {
-        "TINFOIL_DL": "https://codeberg.org/glitched_nx/NXShopLDR/raw/branch/main/tinfoil.zip",
-        "SERVICE_DL": "https://archive.org/download/cfw-de-pack/service.zip"
+        "ModChip Tools (optional)": "https://github.com/glitched-nx/Blue_Edition_2__RCM_V1/releases/download/ModChip/blue_pack_NX_ModChip_Files.zip",
+        "Tinfoil_Download": "https://codeberg.org/glitched_nx/NXShopLDR/raw/branch/main/tinfoil.zip",
+        "Service_Download": "https://archive.org/download/cfw-de-pack/service.zip"
     }
 }
