@@ -1,0 +1,6 @@
+[ofw stock]
+fss0=atmosphere/package3
+emummc_force_disable=1
+stock=1
+logopath=bootloader/boot/stock_bootlogo.bmp
+icon=bootloader/res/icon_stock_nobox.bmp

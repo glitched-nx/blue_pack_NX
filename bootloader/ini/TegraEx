@@ -1,0 +1,3 @@
+[tegra explorer]
+payload=bootloader/payloads/TegraExplorer.bin
+icon=bootloader/res/icon_tegra_nobox.bmp
