@@ -30,6 +30,6 @@
     {
         "name": "quickReBoot - latest",
         "label": "quickReBoot",
-        "file-1-url": "https://raw.githubusercontent.com/glitched-nx/blue_pack_NX/refs/heads/blue_pack/switch/.packages/quickReBoot/package.ini"
+        "file-1-url": "https://raw.githubusercontent.com/glitched-nx/blue_pack_NX/blue_pack/switch/.packages/quickReBoot/package.ini"
     }
 ]
