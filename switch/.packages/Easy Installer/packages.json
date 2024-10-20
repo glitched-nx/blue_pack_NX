@@ -18,6 +18,14 @@
         "file-4-url": "https://raw.githubusercontent.com/ppkantorski/Ultrahand-Overlay/main/examples/Easy%20Installer/music.json"
     },
     {
+        "name": "Host Guard - latest",
+        "label": "Host Guard",
+        "file-1-url": "https://raw.githubusercontent.com/ppkantorski/Ultrahand-Overlay/main/examples/Host%20Guard/package.ini",
+        "file-2-url": "https://raw.githubusercontent.com/ppkantorski/Ultrahand-Overlay/main/examples/Host%20Guard/emummc.txt",
+        "file-3-url": "https://raw.githubusercontent.com/ppkantorski/Ultrahand-Overlay/main/examples/Host%20Guard/sysmmc.txt",
+        "file-4-url": "https://raw.githubusercontent.com/ppkantorski/Ultrahand-Overlay/main/examples/Host%20Guard/sdcard.txt"
+    },
+    {
         "name": "Memory Config - latest",
         "label": "Memory Config",
         "file-1-url": "https://raw.githubusercontent.com/ppkantorski/Ultrahand-Overlay/main/examples/Memory%20Config/package.ini"        
@@ -30,6 +38,6 @@
     {
         "name": "quickReBoot - latest",
         "label": "quickReBoot",
-        "file-1-url": "https://raw.githubusercontent.com/glitched-nx/blue_pack_NX/blue_pack/switch/.packages/quickReBoot/package.ini"
+        "file-1-url": "https://raw.githubusercontent.com/ppkantorski/Ultrahand-Overlay/main/examples/quickReBoot/package.ini"
     }
 ]
