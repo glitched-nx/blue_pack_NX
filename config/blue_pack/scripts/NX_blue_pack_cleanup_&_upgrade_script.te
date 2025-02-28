@@ -1,0 +1,352 @@
+println()
+color(0x2255FF )
+println()
+println("      ######   NX blue pack - AIO CFW PACK  ######")
+println("      ######    Cleanup & Upgrade Script    ######") 
+println("      ######     By Woody & glitched_nx     ######")
+println()
+
+color(0xBBDDFF)
+println()
+println("       ##  Dieses Skript macht folgendes:  ##")
+println(" -  Es bereinigt die SD-Karte von alten CFW-Daten.")
+println(" - Wichtige Daten auf der SD-Karte bleiben unberuehrt.")
+println(" - Es bestueckt die SD-Karte mit dem neuen NX blue pack.")
+println()
+
+color(0x55BBFF)
+println("   A  -Taste druecken, um das Upgrade zu starten.")
+println()
+println()
+color(0xBBDDFF)
+println("   B  -Taste druecken um das Skript zu abzubrechen.")
+color(0x55BBFF)
+# Warten auf Benutzereingabe
+if (!pause().a) {
+    exit()
+}
+
+# Upgrade starten
+println()
+println()
+println()
+println()
+println("  Das Upgrade wird jetzt ausgefuehrt.")
+println()
+println()
+println()
+color(0xa9cce3)
+
+# Löscht alte Dateien und Verzeichnisse, falls sie existieren
+if (fsexists("sd:/bootloader/boot")) {
+    deldir("sd:/bootloader/boot")
+}
+if (fsexists("sd:/bootloader/ini")) {
+    deldir("sd:/bootloader/ini")
+}
+if (fsexists("sd:/bootloader/payloads/fusee.bin")) {
+    delfile("sd:/bootloader/payloads/fusee.bin")
+}
+if (fsexists("sd:/bootloader/payloads/Lockpick_RCM.bin")) {
+    delfile("sd:/bootloader/payloads/Lockpick_RCM.bin")
+}
+if (fsexists("sd:/bootloader/payloads/prodinfo_gen.bin")) {
+    delfile("sd:/bootloader/payloads/prodinfo_gen.bin")
+}
+if (fsexists("sd:/bootloader/payloads/ProblemResolver.bin")) {
+    delfile("sd:/bootloader/payloads/ProblemResolver.bin")
+}
+if (fsexists("sd:/bootloader/payloads/TegraExplorer.bin")) {
+    delfile("sd:/bootloader/payloads/TegraExplorer.bin")
+}
+if (fsexists("sd:/bootloader/res")) {
+    deldir("sd:/bootloader/res")
+}
+if (fsexists("sd:/bootloader/hekate_ipl.ini")) {
+    delfile("sd:/bootloader/hekate_ipl.ini")
+}
+if (fsexists("sd:/bootloader/patches.ini")) {
+    delfile("sd:/bootloader/patches.ini")
+}
+if (fsexists("sd:/bootloader/update.bin")) {
+    delfile("sd:/bootloader/update.bin")
+}
+if (fsexists("sd:/bootloader/bootlogo_kefir.bmp")) {
+    delfile("sd:/bootloader/bootlogo_kefir.bmp")
+}
+if (fsexists("sd:/bootloader/bootlogo.bmp")) {
+    delfile("sd:/bootloader/bocklogo.bmp")
+}
+if (fsexists("sd:/bootloader/hekate_ipl_.ini")) {
+    delfile("sd:/bootloader/hekate_ipl_.ini")
+}
+if (fsexists("sd:/bootloader/hekate_ipl.ini.template")) {
+    delfile("sd:/bootloader/hekate_ipl.ini.template")
+}
+if (fsexists("sd:/bootloader/nyx.ini_")) {
+    delfile("sd:/bootloader/nyx.ini_")
+}
+if (fsexists("sd:/bootloader/updating.bmp")) {
+    delfile("sd:/bootloader/updating.bmp")
+}
+if (fsexists("sd:/switch/.overlays")) {
+    deldir("sd:/switch/.overlays")
+}
+if (fsexists("sd:/switch/.packages")) {
+    deldir("sd:/switch/.packages")
+}
+if (fsexists("sd:/switch/aio-switch-updater")) {
+    deldir("sd:/switch/aio-switch-updater")
+}
+if (fsexists("sd:/switch/appstore")) {
+    deldir("sd:/switch/appstore")
+}
+if (fsexists("sd:/switch/breeze")) {
+    deldir("sd:/switch/breeze")
+}
+if (fsexists("sd:/switch/cheats-updater")) {
+    deldir("sd:/switch/cheats-updater")
+}
+if (fsexists("sd:/switch/chiaki")) {
+    deldir("sd:/switch/chiaki")
+}
+if (fsexists("sd:/switch/Daybreak")) {
+    deldir("sd:/switch/Daybreak")
+}
+if (fsexists("sd:/switch/DBI/DBI.nro")) {
+    delfile("sd:/switch/DBI/DBI.nro")
+}
+if (fsexists("sd:/switch/DNS_mitm Tester")) {
+    deldir("sd:/switch/DNS_mitm Tester")
+}
+if (fsexists("sd:/switch/EdiZon")) {
+    deldir("sd:/switch/EdiZon")
+}
+if (fsexists("sd:/switch/Fizeau")) {
+    deldir("sd:/switch/Fizeau")
+}
+if (fsexists("sd:/switch/FTPD")) {
+    deldir("sd:/switch/FTPD")
+}
+if (fsexists("sd:/switch/Goldleaf")) {
+    deldir("sd:/switch/Goldleaf")
+}
+if (fsexists("sd:/switch/haze")) {
+    deldir("sd:/switch/haze")
+}
+if (fsexists("sd:/switch/JKSV")) {
+    deldir("sd:/switch/JKSV")
+}
+if (fsexists("sd:/switch/Linkalho")) {
+    deldir("sd:/switch/Linkalho")
+}
+if (fsexists("sd:/switch/Neumann")) {
+    deldir("sd:/switch/Neumann")
+}
+if (fsexists("sd:/switch/NX-Activity-Log")) {
+    deldir("sd:/switch/NX-Activity-Log")
+}
+if (fsexists("sd:/switch/NX-Shell")) {
+    deldir("sd:/switch/NX-Shell")
+}
+if (fsexists("sd:/switch/NX-Update-Checker ")) {
+    deldir("sd:/switch/NX-Update-Checker ")
+}
+if (fsexists("sd:/switch/NXThemesInstaller")) {
+    deldir("sd:/switch/NXThemesInstaller")
+}
+if (fsexists("sd:/switch/NXThemesInstaller.nro")) {
+    delfile("sd:/switch/NXThemesInstaller.nro")
+}
+if (fsexists("sd:/switch/Switch-Time")) {
+    deldir("sd:/switch/Switch-Time")
+}
+if (fsexists("sd:/switch/SSwitchIdent")) {
+    deldir("sd:/switch/SwitchIdent")
+}
+if (fsexists("sd:/switch/themezer-nx")) {
+    deldir("sd:/switch/themezer-nx")
+}
+if (fsexists("sd:/switch/amsPLUS-downloader")) {
+    deldir("sd:/switch/amsPLUS-downloader")
+}
+if (fsexists("sd:/switch/AtmoXL-Titel-Installer")) {
+    deldir("sd:/switch/AtmoXL-Titel-Installer")
+}
+if (fsexists("sd:/switch/nxdumptool")) {
+    deldir("sd:/switch/nxdumptool")
+}
+if (fsexists("sd:/switch/Reboot")) {
+    deldir("sd:/switch/Reboot")
+}
+if (fsexists("sd:/switch/Shutdown_System")) {
+    deldir("sd:/switch/Shutdown_System")
+}
+if (fsexists("sd:/switch/studious-pancake")) {
+    deldir("sd:/switch/studious-pancake")
+}
+if (fsexists("sd:/switch/tinwoo")) {
+    deldir("sd:/switch/tinwoo")
+}
+if (fsexists("sd:/switch/DBI_ru")) {
+    deldir("sd:/switch/DBI_ru")
+}
+if (fsexists("sd:/switch/kefir-updater")) {
+    deldir("sd:/switch/kefir-updater")
+}
+if (fsexists("sd:/switch/daybreak.nro")) {
+    delfile("sd:/switch/daybreak.nro")
+}
+if (fsexists("sd:/switch/Goldleaf.nro")) {
+    delfile("sd:/switch/Goldleaf.nro")
+}
+if (fsexists("sd:/switch/haze.nro")) {
+    delfile("sd:/switch/haze.nro")
+}
+if (fsexists("sd:/switch/JKSV.nro")) {
+    delfile("sd:/switch/JKSV.nro")
+}
+if (fsexists("sd:/switch/linkalho.nro")) {
+    delfile("sd:/switch/linkalho.nro")
+}
+if (fsexists("sd:/switch/NX-Shell.nro")) {
+    delfile("sd:/switch/NX-Shell.nro")
+}
+if (fsexists("sd:/switch/reboot_to_payload.nro")) {
+    delfile("sd:/switch/reboot_to_payload.nro")
+}
+if (fsexists("sd:/switch/Switch_90DNS_tester.nro")) {
+    delfile("sd:/switch/Switch_90DNS_tester.nro")
+}
+if (fsexists("sd:/switch/sys-clk-manager.nro")) {
+    delfile("sd:/switch/sys-clk-manager.nro")
+}
+if (fsexists("sd:/switch/ChoiDujourNX")) {
+    deldir("sd:/switch/ChoiDujourNX")
+}
+if (fsexists("sd:/switch/Payload_launcher")) {
+    deldir("sd:/switch/Payload_launcher")
+}
+if (fsexists("sd:/switch/reboot_to_hekate")) {
+    deldir("sd:/switch/reboot_to_hekate")
+}
+if (fsexists("sd:/switch/gamecard_installer")) {
+    deldir("sd:/switch/gamecard_installer")
+}
+if (fsexists("sd:/switch/nxmtp")) {
+    deldir("sd:/switch/nxmtp")
+}
+if (fsexists("sd:/switch/crash_ams")) {
+    deldir("sd:/switch/crash_ams")
+}
+if (fsexists("sd:/switch/reboot_to_argonNX")) {
+    deldir("sd:/switch/reboot_to_argonNX")
+}
+if (fsexists("sd:/sept")) {
+    deldir("sd:/sept")
+}
+if (fsexists("sd:/argon")) {
+    deldir("sd:/argon")
+}
+# Löscht spezifische Verzeichnisse
+if (fsexists("sd:/atmosphere")) {
+    deldir("sd:/atmosphere")
+}
+if (fsexists("sd:/bootloader/sys")) {
+    deldir("sd:/bootloader/sys")
+}
+if (fsexists("sd:/config/kefir-updater")) {
+    deldir("sd:/config/kefir-updater")
+}
+if (fsexists("sd:/config/uberhand")) {
+    deldir("sd:/config/uberhand")
+}
+if (fsexists("sd:/config/nx-hbmenu")) {
+    deldir("sd:/config/nx-hbmenu")
+}
+if (fsexists("sd:/games")) {
+    deldir("sd:/games")
+}
+if (fsexists("sd:/NSPs (Tools)")) {
+    deldir("sd:/NSPs (Tools)")
+}
+if (fsexists("sd:/SaltySD")) {
+    deldir("sd:/SaltySD")
+}
+if (fsexists("sd:/tools")) {
+    deldir("sd:/tools")
+}
+if (fsexists("sd:/install.bat")) {
+    delfile("sd:/install.bat")
+}
+if (fsexists("sd:/boot.dat")) {
+    delfile("sd:/boot.dat")
+}
+if (fsexists("sd:/boot.ini")) {
+    delfile("sd:/boot.ini")
+}
+if (fsexists("sd:/exosphere.ini")) {
+    delfile("sd:/exosphere.ini")
+}
+if (fsexists("sd:/hbmenu.nro")) {
+    delfile("sd:/hbmenu.nro")
+}
+if (fsexists("sd:/payload.bin")) {
+    delfile("sd:/payload.bin")
+}
+if (fsexists("sd:/fusee-primary.bin")){
+    delfile("sd:/fusee-primary.bin")
+}
+if (fsexists("sd:/fusee.bin")){
+    delfile("sd:/fusee.bin")
+}
+if (fsexists("sd:/switch/ChoiDujourNX.nro")){
+    delfile("sd:/switch/ChoiDujourNX.nro")
+}
+if (fsexists("sd:/bootloader/payloads/Reboot_to_ArgonNX.bin")){
+    delfile("sd:/bootloader/payloads/Reboot_to_ArgonNX.bin")
+}
+if (fsexists("sd:/bootloader/sd:/ArgonNX.bin")){
+    delfile("sd:/bootloader/sd:/ArgonNX.bin")
+}
+if (fsexists("sd:/bootloader/payloads/Atmosphere.bin")){
+    delfile("sd:/bootloader/payloads/Atmosphere.bin")
+}
+if (fsexists("sd:/bootloader/payloads/Incognito_RCM.bin")){
+    delfile("sd:/bootloader/payloads/Incognito_RCM.bin")
+}
+
+# Kopieren der neuen Dateien
+color(0x2255FF)
+copydir("sd:/config/blue_pack_updater/blue_pack_NX/atmosphere", "sd:/")
+copydir("sd:/config/blue_pack_updater/blue_pack_NX/bootloader", "sd:/")
+copydir("sd:/config/blue_pack_updater/blue_pack_NX/config", "sd:/")
+copydir("sd:/config/blue_pack_updater/blue_pack_NX/NSPs (Tools)", "sd:/")
+copydir("sd:/config/blue_pack_updater/blue_pack_NX/switch", "sd:/")
+copyfile("sd:/config/blue_pack_updater/blue_pack_NX/boot.dat", "sd:/boot.dat")
+copyfile("sd:/config/blue_pack_updater/blue_pack_NX/boot.ini", "sd:/boot.ini")
+copyfile("sd:/config/blue_pack_updater/blue_pack_NX/exosphere.ini", "sd:/exosphere.ini")
+copyfile("sd:/config/blue_pack_updater/blue_pack_NX/hbmenu.nro", "sd:/hbmenu.nro")
+copyfile("sd:/config/blue_pack_updater/blue_pack_NX/payload.bin", "sd:/payload.bin")
+color(0xaa2200)
+
+delfile("sd:/config/blue_pack/scripts/NX_blue_pack_cleanup_&_upgrade_script.te")
+deldir("sd:/config/blue_pack/scripts")
+deldir("sd:/scripts")
+
+color(0x2299FF)
+println()
+println("   Die SD-Karte wurde erfolgreich bereinigt")
+println("   und mit dem neusten NX blue pack aktualisiert")
+println()
+println()
+color(0xf9e79f)
+println()
+println("   A -Taste druecken, um Hekate zu reloaden. EMPFOHLEN!")
+println()
+println("   B -Taste druecken, um das Script nur zu beenden.")
+if (pause().a) {
+    system("reboot to bootloader/update.bin")
+} else {
+    exit()
+}
